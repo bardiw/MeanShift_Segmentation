@@ -27,3 +27,14 @@ MeanShift_Segmentation/
 ├── main.py # Main project script  
 └── README.md # Documentation  
 
+
+---
+
+## ⚙️ Requirements
+Install the required dependencies:
+```bash
+pip install numpy opencv-python scipy
+```
+
+---
+
