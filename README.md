@@ -53,3 +53,17 @@ python main.py
 3. View the result
 The segmented image will be displayed in a window and saved as segmented_image.jpg.
 
+---
+
+## ⚙️ Parameters
+You can tweak these parameters in the script for different results:
+
+- h_s → Spatial bandwidth (default: 5)
+
+- h_r → Range (color) bandwidth (default: 5)
+
+- epsilon → Convergence threshold (default: 1.0)
+
+- max_iterations → Maximum number of Mean Shift iterations (default: 10)
+
+- max_size → Maximum allowed image size before resizing (default: 400px)
