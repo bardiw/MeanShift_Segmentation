@@ -38,3 +38,18 @@ pip install numpy opencv-python scipy
 
 ---
 
+## 🚀 How to Run
+1. Clone the repository
+
+```
+git clone https://github.com/username/MeanShift_Segmentation.git
+cd MeanShift_Segmentation
+```
+2. Run the script
+
+```
+python main.py
+```
+3. View the result
+The segmented image will be displayed in a window and saved as segmented_image.jpg.
+
