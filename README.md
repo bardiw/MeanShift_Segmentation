@@ -87,7 +87,7 @@ You can tweak these parameters in the script for different results:
 
 3. Mean Shift Iterations
 
--- For each pixel, search for neighbors using cKDTree within a specified radius
+- For each pixel, search for neighbors using cKDTree within a specified radius
 
 - Calculate Epanechnikov kernel weights for spatial and color dimensions
 
@@ -100,5 +100,8 @@ You can tweak these parameters in the script for different results:
 - Resize result back to original dimensions if needed
 
 ---
-
+## 👨‍💻 Author
+ Bardia Javadi   
+  📧 bardia.javadi.2003@gmail.com    
+  🌐 GitHub: [@bardiw](https://github.com/bardiw)   
   
