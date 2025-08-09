@@ -22,8 +22,8 @@ The algorithm segments an image into regions based on both **spatial** and **col
 ## 📂 Project Structure  
 MeanShift_Segmentation/  
 │  
-├── image sample 1.png # Sample input and output image  
-├── image sample 2.png # Sample input and output image  
+├── image sample_1.png # Sample input and output image  
+├── image sample_2.png # Sample input and output image  
 ├── main.py # Main project script  
 └── README.md # Documentation  
 
