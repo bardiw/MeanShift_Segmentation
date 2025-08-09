@@ -67,3 +67,38 @@ You can tweak these parameters in the script for different results:
 - max_iterations → Maximum number of Mean Shift iterations (default: 10)
 
 - max_size → Maximum allowed image size before resizing (default: 400px)
+
+---
+
+## 🧠 How It Works
+1. Preprocessing
+
+- Optionally resize large images
+
+- Smooth image with a Gaussian blur to reduce noise
+
+- Convert from BGR to LAB color space
+
+2. Feature Construction
+
+- Combine spatial coordinates (x, y) and LAB color values into feature vectors
+
+- Normalize features by their respective bandwidths (h_s, h_r)
+
+3. Mean Shift Iterations
+
+- For each pixel, search for neighbors using cKDTree within a specified radius
+
+- Calculate Epanechnikov kernel weights for spatial and color dimensions
+
+- Move pixel feature vectors toward the mean of neighbors until convergence
+
+3. Reconstruction
+
+- Convert shifted LAB color values back to BGR
+
+- Resize result back to original dimensions if needed
+
+---
+
+  
