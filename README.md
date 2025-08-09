@@ -72,10 +72,10 @@ You can tweak these parameters in the script for different results:
 
 ## 📸 Example Output
 
-**Original Image:**
+**Sample_1 Image:**
 ![original](sample_1.png)
 
-**Segmented Image:**
+**Sample_2 Image:**
 ![segmented](sample_2.png)
 
 
